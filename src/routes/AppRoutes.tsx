@@ -7,6 +7,8 @@ import About from "../pages/About";
 import Login from "../pages/Login";
 import Dashboard from "../pages/Dashboard";
 import Info from "../pages/Info";
+import Perfil from "../pages/Perfil";
+import Configuracion from "../pages/Configuracion";
 import NotFound from "../pages/NotFound";
 
 //importacion de los layouts
@@ -51,6 +53,14 @@ export default function AppRoutes() {
           <Route
             path="/info"
             element={<Info />}
+          />
+          <Route
+            path="/perfil"
+            element={<Perfil />}
+          />
+          <Route
+            path="/configuracion"
+            element={<Configuracion />}
           />
         </Route>
         {/* 404 */}
